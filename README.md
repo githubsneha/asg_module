@@ -1,2 +1,1 @@
-# asg_module
-ASG LB module demo
+# Setup ASG using Terraform
