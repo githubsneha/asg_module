@@ -1,3 +1,4 @@
+# This is security group for ASG
 resource "aws_security_group" "allow_http_asg" {
   name        = var.asg_security_group_name
   description = "Allow HTTP inbound traffic from LB"
