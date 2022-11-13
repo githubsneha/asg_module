@@ -1,6 +1,6 @@
 variable "ami_id" {
   type    = string
-  default = "ami-052cef05d01020f1d"
+  default = "ami-0e6329e222e662a52"
 }
 
 variable "lb_security_group_name" {
@@ -20,7 +20,7 @@ variable "instance_type" {
 
 variable "key_name" {
   type    = string
-  default = "devops2022"
+  default = "Devops2022"
 }
 
 variable "lb_name" {
