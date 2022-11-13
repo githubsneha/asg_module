@@ -1,6 +1,6 @@
 data "aws_vpc" "selected" {
   filter {
-    name   = "tag:Name"
+    name   = "Name"
     values = ["main"]
   }
 }
